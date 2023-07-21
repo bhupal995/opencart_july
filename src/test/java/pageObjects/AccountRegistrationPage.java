@@ -45,7 +45,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//*[@id=\"account-register\"]/div[1]")
 	WebElement errmsgconfirmation;
 	
-	@FindBy(css="First Name must be between 1 and 32 characters!")
+	@FindBy(xpath="//*[@name='firstname']/following-sibling::div")
 	WebElement fnameerrormsg;
 	
 //	@FindBy(xpath="//*[@id=\"account\"]/div[2]/div/div")
