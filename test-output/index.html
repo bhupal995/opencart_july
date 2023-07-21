@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-OpencartSuite" class="navigator-link">
-              <span class="suite-name border-failed">OpencartSuite</span>
+              <span class="suite-name border-passed">OpencartSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-OpencartSuite" class="hide-methods failed suite-OpencartSuite"> (hide)</a> <!-- hide-methods failed suite-OpencartSuite -->
-                      <a href="#" panel-name="suite-OpencartSuite" class="show-methods failed suite-OpencartSuite"> (show)</a> <!-- show-methods failed suite-OpencartSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-OpencartSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-OpencartSuite" title="testCases.TC_001_AccountRegistration" class="method navigator-link" hash-for-method="test_account_Registration1">test_account_Registration1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-OpencartSuite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-OpencartSuite" title="testCases.TC_001_AccountRegistration" class="method navigator-link" hash-for-method="test_account_Registration">test_account_Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpencartSuite" title="testCases.TC_001_AccountRegistration" class="method navigator-link" hash-for-method="test_account_Registration1">test_account_Registration1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-OpencartSuite -->
@@ -132,34 +123,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-OpencartSuite" class="panel OpencartSuite">
-          <div class="suite-OpencartSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC_001_AccountRegistration</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_account_Registration1">
-                  </a> <!-- test_account_Registration1 -->
-                  <span class="method-name">test_account_Registration1</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [First Name must be between 1 and 32 characters!] but found [invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1944b4c5166919a5ff800789cfe138f1, findElement {using=css selector, value=First Name must be between 1 and 32 characters!}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bhupa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63190/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1944b4c5166919a5ff800789cfe138f1]
-	at testCases.TC_001_AccountRegistration.test_account_Registration1(TC_001_AccountRegistration.java:99)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-OpencartSuite-class-failed -->
           <div class="suite-OpencartSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -171,6 +134,13 @@ Session ID: 1944b4c5166919a5ff800789cfe138f1]
                   <a name="test_account_Registration">
                   </a> <!-- test_account_Registration -->
                   <span class="method-name">test_account_Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_account_Registration1">
+                  </a> <!-- test_account_Registration1 -->
+                  <span class="method-name">test_account_Registration1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -251,16 +221,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_account_Registration')
 data.setCell(0, 2, 'testCases.TC_001_AccountRegistration')
-data.setCell(0, 3, 3732);
+data.setCell(0, 3, 5006);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_account_Registration1')
 data.setCell(1, 2, 'testCases.TC_001_AccountRegistration')
-data.setCell(1, 3, 586);
+data.setCell(1, 3, 1134);
 window.suiteTableData['OpencartSuite']= { tableData: data, tableDiv: 'times-div-OpencartSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-OpencartSuite">
               </div> <!-- times-div-OpencartSuite -->
             </div> <!-- times-div -->
@@ -293,17 +263,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_account_Registration</span>
-                <span class="method-start">3114 ms</span>
+                <span class="method-start">5934 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">test_account_Registration1</span>
-                <span class="method-start">6869 ms</span>
+                <span class="method-start">10980 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7671 ms</span>
+                <span class="method-start">12119 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
