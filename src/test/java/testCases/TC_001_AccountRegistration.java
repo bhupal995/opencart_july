@@ -97,6 +97,8 @@ public class TC_001_AccountRegistration extends BaseClass{
 		
 		Assert.assertEquals(confmsg,"Warning: You must agree to the Privacy Policy!");
 		Assert.assertEquals(fcnfmsg,"First Name must be between 1 and 32 characters!");
+		
+		System.out.println("test success");
 		}
 		catch(Exception e) {
 			
