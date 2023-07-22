@@ -11,10 +11,13 @@
  <parameter name="browser" value="chrome"/>
     
     
-    <classes>
-      <class name="testCases.TC_001_AccountRegistration"/>  
-  <!--     <class name="testCases.TC_002_LoginTest"/>           -->
-    <!--   <class name="testCases.TC_003_LoginDataDrivenTest"/> -->
+      <classes>
+       <class name="testCases.TC_001_AccountRegistration"/>
+   	   <class name="testCases.TC_002_LoginTest"/>
+  	   <class name="testCases.TC_004_SearchProductTest"/>
+   	   <class name="testCases.TC_005_AddToCartPageTest"/> 
+		<class name="testCases.TC_006_EndToEndTest"/>
+	<!--  <class name="testCases.TC_003_LoginDataDrivenTest"/>  -->
     </classes>
   </test> <!-- OpencartTest -->
 </suite> <!-- OpencartSuite -->

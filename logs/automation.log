@@ -1,0 +1,24 @@
+17:35:26.641 [main] INFO  testCases.TC_001_AccountRegistration - ******** Starting TC_001_ AccountRegistration Test ****
+17:35:26.976 [main] INFO  testCases.TC_001_AccountRegistration - Clicked on My account link
+17:35:27.566 [main] INFO  testCases.TC_001_AccountRegistration - Clicked on register link
+17:35:27.583 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer data
+17:35:30.927 [main] INFO  testCases.TC_001_AccountRegistration - Clicked on continue
+17:35:30.970 [main] INFO  testCases.TC_001_AccountRegistration - Validating expected message
+17:35:31.537 [main] INFO  testCases.TC_001_AccountRegistration - ***  Finished TC_001_AccountRegistrationTest ***
+17:35:31.579 [main] INFO  testCases.TC_001_AccountRegistration - ******** Starting TC_001_ AccountRegistration Test ****
+17:35:31.661 [main] INFO  testCases.TC_001_AccountRegistration - Clicked on My account link
+17:35:32.182 [main] INFO  testCases.TC_001_AccountRegistration - Clicked on register link
+17:35:32.188 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer data
+17:35:32.677 [main] INFO  testCases.TC_001_AccountRegistration - Clicked on continue
+17:35:32.756 [main] INFO  testCases.TC_001_AccountRegistration - Validating expected message
+17:35:32.756 [main] INFO  testCases.TC_001_AccountRegistration - ***  Finished TC_001_AccountRegistrationTest ***
+17:35:35.315 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+17:35:35.659 [main] INFO  testCases.TC_002_LoginTest - clicked on my account
+17:35:36.322 [main] INFO  testCases.TC_002_LoginTest - clicked on login
+17:35:36.447 [main] INFO  testCases.TC_002_LoginTest - email entered
+17:35:36.532 [main] INFO  testCases.TC_002_LoginTest - password entered
+17:35:37.273 [main] INFO  testCases.TC_002_LoginTest - Finished TC_002_LoginTest
+17:35:39.583 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+17:35:43.253 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+17:35:45.595 [main] INFO  testCases.TC_005_AddToCartPageTest -  Starting TC_005_AddToCartPageTest 
+17:35:49.542 [main] INFO  testCases.TC_005_AddToCartPageTest -  Finished TC_004_SearchProductTest 
